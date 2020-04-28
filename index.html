@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Clase 4 - Eventos</title>
+  <style>
+    body {
+    display: block;
+    background-image: url("img/fondo.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: scroll;
+    height: 100vh;
+    font-family:Verdana;
+  }
+
+  .titulo{
+    background-color:rgb(255, 255, 255);
+   opacity:0.6;
+   width:100%;
+   height: 80px;
+   text-align: center;
+   vertical-align: middle;
+
+  }
+  .componente{
+    width: auto;
+  }
+
+  </style>
+</head>
+<body>
+  <div class="titulo">
+    <h1>Buscardor de Libros</h1>
+  </div>
+  <hr>
+  <componente-principal class="componente"></componente-principal>
+  <script src="node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+  <script src="src/index.js" type="module"></script>
+</body>
+</html>
