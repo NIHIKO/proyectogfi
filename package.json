@@ -9,9 +9,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@adaws/flip-card": "github:dawsonalex/polymer-flip-card",
     "@polymer/iron-ajax": "3.0.1",
     "@webcomponents/webcomponentsjs": "2.2.10",
-    "lit-element": "2.1.0",
-
+    "lit-element": "^2.1.0"
   }
 }

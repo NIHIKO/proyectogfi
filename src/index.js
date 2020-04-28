@@ -4,4 +4,5 @@ import './listado-categorias';
 import './componente-li';
 import './resultado-libros';
 import './informacion-libro';
+import '@adaws/flip-card';
 
